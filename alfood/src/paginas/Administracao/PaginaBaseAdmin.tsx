@@ -12,6 +12,8 @@ const PaginaBaseAdmin = () => {
                             Administração
                         </Typography>
                         <Box sx={{ display: 'flex', flexGrow: 1 }}>
+                            {/* dentro do componente Link do MUI, temos uma propriedade chamada "component" que nos da a praticidade 
+                            de adicionarmos a ação "to" e adicionarmos uma rota para o botão criado*/}
                             <Link component={RouterLink} to="/admin/restaurantes">
                                 <Button sx={{ my: 2, color: 'white' }}>
                                     Restaurantes
